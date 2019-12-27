@@ -1,0 +1,141 @@
+.kotak{
+	background-size: cover; /*cover untuk membuat gambar memjadi penuh*/
+	height: 650px;
+	margin-top: -80px;
+	text-align:reight;
+	position: relative;
+	
+}
+
+/*Navbar*/
+.navbar{
+	position: relative;
+	z-index: 1;
+}
+.navbar-brand{
+	font-family: Viga;
+	font-size: 30px;
+}
+.nav-link{
+	text-transform: uppercase;/*upercase membuat text menjadi besar*/
+	margin-right: 15px;
+}
+.nav-link:hover::after{
+	content: '';
+	display: block;
+	border-bottom: 3px solid #0B63DC;
+	width: 50%;
+	margin: auto;
+	padding-bottom: 5px;
+	margin-bottom: -8px;
+
+}
+.navbar-brand, .nav-link{
+	color: white !important;
+	text-shadow: 1px 1px 1px rgba(0,0,0,0.7);
+}
+/* akhir navbar */
+
+/* jumbotron */
+.kotak .container{
+	position: relative;
+	z-index: 1;
+}
+.kotak::after{
+	content: '';
+	display: block;
+	height: 80%;
+	width: 100%;
+	background-image: linear-gradient(to top, rgba(0,0,0,1), rgba(0,0,0,0));
+	position: absolute;
+	bottom: 0;
+}
+.kata .dis{
+	color: white; 
+	font-size: 35px;
+	margin-top: 190px;
+  	font-family: 'Times New Roman';
+	text-shadow: 1px 1px 1px rgba(0,0,0,0.7); 
+	  
+}
+.kata .lead{
+	color: white;
+	text-shadow: 1px 1px 1px rgba(0,0,0,0.7);
+	font-size: 55px;
+	font-family: 'Times New Roman';
+  	margin-bottom: 30px;
+}
+/* akhir jumbotron */
+
+.parallax-image{
+	height: 350px;
+	/* width: 800px; */
+	margin-bottom: 50px;
+	background-attachment: fixed;
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-image: url(../gmb/1.jpg);
+	background-color: rgb(0,0,0)!important; /* Fallback color */
+    background-color: rgba(0,0,0, 0.4)!important;
+	
+}
+.team .container h1 {
+	font-size: 35px;
+	padding-top: 10px;
+  } 
+.team .team {
+	padding: 50px 40px;
+ }
+ .team .card {
+	width: 350px;
+}
+.team .card .card-text {
+	padding: 10px;
+  }
+.team .carousel-item {
+	padding-left: 5px;
+}
+.border-radius {
+	border-radius: 340px;
+	width: 60%;
+}
+/* contact */
+.img {
+    margin-left: 60px!important;
+}
+.nav-link:hover {
+	color: black;
+  }
+.navbar.Black{
+	background: rgba(0,0,0,.8);
+}
+/* makanan */
+.menu-1 {
+	padding:15px;
+}
+   .menu-1 .images img {
+	width:480px;
+	/* height: 140px;
+	right: 155px; */
+   }
+   
+   .menu-1 .dish-info .price {
+	font-family:"Poppins",sans-serif;
+	font-size:35px;
+	font-weight:80;
+	line-height:1;
+	text-align:center;
+   }
+   .gray-bg-3 {
+	background-color:#f7f7f7
+   }
+   .mb-30 {
+	margin-bottom:30px;
+   }
+.abu {
+    color: rgb(112, 111, 111);
+}
+
+   
+  
